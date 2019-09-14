@@ -42,4 +42,4 @@ done < <(find . -print0)
 
 I was reminded on how I thought batch's way of looping through a file line by line was bad.. but now I'm thankful for batch.
 
-Batch is an interesting language to code in. Infinitely useful for people that live on the command line, but you can tell that its been around the block for awhile.
+Batch is an interesting language to code in. Infinitely useful for people that live on the command line, but you can tell that there are time when you gotta just *bash* through it. 
