@@ -2,6 +2,10 @@
 
 Bash reminds me of the days when I was younger - when a multitidue of things seemed so much simpler, while others seemed so impossible to grasp that I couldn't wait to move on with life.  
 
+```bash
+variable=value
+```
+
 When I realized that variables couldn't be 'set' if there were spaces between the equals sign and values (i.e. `variable = value`), I thought it was weird. Oh how was I naive.
 
 `if` and `for` loops were interesting as well,
