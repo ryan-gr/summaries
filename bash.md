@@ -6,13 +6,15 @@ When I realized that variables couldn't be 'set' if there were spaces between th
 
 `if` and `for` loops were interesting as well,
 
-```if [ "$variable" == "value" ]; then  
-  echo Wow! Something is happening!  
-fi```
-
+```bash
+if [ "$variable" == "value" ]; then
+  echo Wow! Something is happening!
+fi
 ```
-for item in ${array[@]}; do  
-  echo $item  
+
+```bash
+for item in ${array[@]}; do
+  echo $item
 done
 ```
 
@@ -26,11 +28,11 @@ Liberating!
 
 But looping through a file.. just what.
 
-```
-list=()  
-while IFS= read -d $'\0' -r line ; do  
-  file_list=("${list[@]}" "$line")  
-done < <(find . -print0)  
+```bash
+list=()
+while IFS= read -d $'\0' -r line ; do
+  file_list=("${list[@]}" "$line")
+done < <(find . -print0)
 ```
 > based on https://stackoverflow.com/questions/8213328/store-the-output-of-find-command-in-an-array/8213509
 
